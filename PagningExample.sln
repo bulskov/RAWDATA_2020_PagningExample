@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pagning", "Pagning\Pagning.csproj", "{CD36BBB5-1FF7-4705-91A3-8B52C810A1B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{003DFA80-9A83-4E66-8D5E-498DA51C7799}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD36BBB5-1FF7-4705-91A3-8B52C810A1B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD36BBB5-1FF7-4705-91A3-8B52C810A1B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD36BBB5-1FF7-4705-91A3-8B52C810A1B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD36BBB5-1FF7-4705-91A3-8B52C810A1B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{003DFA80-9A83-4E66-8D5E-498DA51C7799}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{003DFA80-9A83-4E66-8D5E-498DA51C7799}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{003DFA80-9A83-4E66-8D5E-498DA51C7799}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{003DFA80-9A83-4E66-8D5E-498DA51C7799}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {032A92D4-47F9-4EA1-AC30-45BCC4DABF7C}
+	EndGlobalSection
+EndGlobal
