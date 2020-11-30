@@ -47,6 +47,7 @@ namespace Pagning.Controllers
 
             var result = new
             {
+                pageSizes = new int[]{5,10,15,20}, 
                 count = numberOfProducts,
                 pages,
                 prev,

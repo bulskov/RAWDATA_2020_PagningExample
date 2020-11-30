@@ -1,0 +1,24 @@
+﻿<h2>Product List</h2>
+
+<div>
+    <div>
+        Page size: <select data-bind="options: pageSizes, selectedOptions: selectedPageSize"></select>
+    </div>
+    <div data-bind="foreach: products">
+        <div class="product">
+            <div>
+                Link: <span data-bind="text: url"></span>
+            </div>
+            <div>
+                Name: <span data-bind="text: name"></span>
+            </div>
+            <div>
+                Category name: <span data-bind="text: categoryName"></span>
+            </div>
+        </div>
+    </div>
+    <div class="navigation-buttons">
+        <button data-bind="click: showPrev, enable: enablePrev">Prev</button>
+        <button data-bind="click: showNext, enable: enableNext">Next</button>
+    </div>
+</div>
